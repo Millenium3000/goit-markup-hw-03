@@ -65,11 +65,16 @@ body {
 .hero {
   background-color: var(--hero_color);
   color: var(--button_text);
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+
+  margin-top: 0px;
+  margin-bottom: 30px;
   /* or 136% */
 
   text-align: center;
@@ -85,6 +90,7 @@ h1 {
   line-height: 1.88;
   align-items: center;
   font-family: inherit;
+  border: solid 1px;
 }
 .link-text {
   color: var(--title_color);
@@ -93,6 +99,8 @@ h1 {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 .text {
   font-weight: 400;
@@ -100,6 +108,8 @@ h1 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary_gray);
+  margin-top: 0 px;
+  margin-bottom: 0px;
 }
 .section {
   font-weight: 700;
@@ -196,4 +206,14 @@ ul {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.06em;
+}
+.box {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #2196f3;
+}
+.div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
 }
