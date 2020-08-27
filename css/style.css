@@ -9,7 +9,7 @@
   font-style: normal;
 }
 .container {
-  width: 1170px;
+  width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -21,19 +21,27 @@ body {
   font-style: normal;
 }
 /* убрал маркир список */
-.list {
-  list-style: none;
+
+.main-nav {
   display: flex;
 }
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
 .list .page + .page {
   margin-left: 50px;
 }
 /* Убирает подчеркивание в ссылках */
 .site-nav {
   list-style: none;
+
   display: flex;
-  margin-left: 93px;
+  margin-left: auto;
 }
+
 .site-nav .link {
   display: block;
   padding-top: 35px;
@@ -61,6 +69,11 @@ body {
   text-decoration: none;
   display: flex;
   align-items: center;
+  margin-right: auto;
+}
+/* нов изменил */
+.container main-nav {
+  display: flex;
 }
 
 /* Логотип */
@@ -71,7 +84,7 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1.19px;
   letter-spacing: 0.03em;
 }
 .logo .logoblue {
@@ -146,6 +159,7 @@ h1 {
   letter-spacing: 0.03em;
   margin-top: 0px;
   margin-bottom: 50px;
+  text-align: center;
 
   color: var(--title_color);
 }
@@ -209,6 +223,12 @@ h1 {
 .button-port:focus {
   background-color: var(--blue);
   color: var(--button_text);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .button:active {
   font-size: 1.63;
@@ -219,6 +239,11 @@ h1 {
   background-color: var(--button_text);
   color: var(--title_color);
   border: 1 px solid black;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 }
 ul {
   list-style: none;
