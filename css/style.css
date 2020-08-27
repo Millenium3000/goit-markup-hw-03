@@ -9,7 +9,7 @@
   font-style: normal;
 }
 .container {
-  width: 1600px;
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -27,8 +27,12 @@ body {
 }
 
 .list {
+  width: 1170px;
   display: flex;
   list-style: none;
+  text-align: center;
+  /* margin-right: 150px;
+  margin-left: 150px; */
 }
 
 .list .page + .page {
@@ -180,6 +184,7 @@ h1 {
   color: var(--primary_gray);
   margin-top: 0px;
   margin-bottom: 0px;
+  text-align: center;
 }
 .footer {
   background-color: var(--hero_color);
