@@ -227,6 +227,7 @@ ul {
 .style-text {
   font-style: normal;
   margin-left: auto;
+  display: block;
 }
 .paragraf {
   line-height: 1.88;
