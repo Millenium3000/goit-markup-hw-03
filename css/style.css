@@ -8,7 +8,13 @@
   --pink: #f5f4fa;
   font-style: normal;
 }
-
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 body {
   font-family: Roboto, sans-serif;
   background-color: var(--button_text);
@@ -17,15 +23,46 @@ body {
 /* убрал маркир список */
 .list {
   list-style: none;
+  display: flex;
+}
+.list .page + .page {
+  margin-left: 50px;
 }
 /* Убирает подчеркивание в ссылках */
 .site-nav {
   list-style: none;
+  display: flex;
+  margin-left: 93px;
 }
-.link-current {
+.site-nav .link {
+  display: block;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin-right: 50px;
+
   color: var(--blue);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
+
+.site-nav.page:not(:last-child) {
+  margin-right: 50px;
+}
+.site-nav.link-current {
+  color: var(--blue);
+  text-decoration: none;
+  display: inline-block;
+}
+/* ХЕДЕР */
+.nav {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
 /* Логотип */
 .logo {
   color: var(--title_color);
@@ -39,15 +76,6 @@ body {
 }
 .logo .logoblue {
   color: var(--blue);
-}
-
-.link .site-nav {
-  color: var(--blue);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.15;
-  letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .link {
@@ -115,7 +143,6 @@ h1 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  /* text-align: center; */
   letter-spacing: 0.03em;
   margin-top: 0px;
   margin-bottom: 50px;
@@ -196,11 +223,10 @@ h1 {
 ul {
   list-style: none;
 }
-.nav {
-  text-decoration: none;
-}
+
 .style-text {
   font-style: normal;
+  margin-left: auto;
 }
 .paragraf {
   line-height: 1.88;
@@ -216,9 +242,4 @@ ul {
 .box {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.div {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1170px;
 }

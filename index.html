@@ -15,33 +15,36 @@
     <!-- Шапка, навигация, контакты, лого -->
     <header>
       <!-- навигация -->
-      <nav class="nav">
-        <a href="./index.html" class="logo link">
-          <span class="logoblue">Web</span>Studio</a
-        >
-        <ul class="site-nav">
-          <!-- в ul -class site nav -->
-          <li>
-            <a class="link-current" href="./index.html">Студия</a>
-          </li>
-          <li>
-            <a class="link" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li>
-            <a class="link" href="">Контакты</a>
-          </li>
-        </ul>
+      <div class="container">
+        <nav class="nav">
+          <a href="./index.html" class="logo link">
+            <span class="logoblue">Web</span>Studio</a
+          >
+          <ul class="site-nav">
+            <!-- в ul -class site nav -->
+            <li class="page">
+              <a class="link link-current" href="./index.html">Студия</a>
+            </li>
+            <li class="page">
+              <a class="link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="page">
+              <a class="link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-        <!-- тут ставить селектор class="logo" -->
-      </nav>
+      <!-- тут ставить селектор class="logo" -->
+
       <address class="style-text">
         <ul class="list">
-          <li>
+          <li class="page">
             <a class="link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="page">
             <a class="link" href="tel:+38-096-111-11-11">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -51,14 +54,14 @@
     <!--Container hero-->
     <main>
       <section class="hero">
-        <div>
+        <div class="container">
           <h1>Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="button_text">Заказать услугу</button>
         </div>
       </section>
 
       <section class="box">
-        <div class="div">
+        <div class="container">
           <ul class="list">
             <li>
               <h2 class="link-text">Внимание к деталям</h2>
@@ -94,7 +97,7 @@
       <!--Компания-->
 
       <section class="box">
-        <div class="div">
+        <div class="container">
           <h2 class="section">Чем мы занимаемся</h2>
           <ul class="list">
             <li>
@@ -111,7 +114,7 @@
       </section>
 
       <section class="pink">
-        <div class="div">
+        <div class="container">
           <h3 class="section">Наша команда</h3>
 
           <ul class="list">
@@ -144,22 +147,24 @@
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="logo link">
-        <span class="logoblue">Web</span><span class="studio">Studio</span></a
-      >
-      <address class="white">
-        г. Киев, пр-т Леси Украинки, 26
-        <ul class="list">
-          <li>
-            <a class="link-var" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a class="link-var" href="tel:+380991111111">+38 099 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a href="./index.html" class="logo link">
+          <span class="logoblue">Web</span><span class="studio">Studio</span></a
+        >
+        <address class="white">
+          г. Киев, пр-т Леси Украинки, 26
+          <ul class="list">
+            <li>
+              <a class="link-var" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="link-var" href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
