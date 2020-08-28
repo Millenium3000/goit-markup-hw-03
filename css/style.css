@@ -215,9 +215,7 @@ h1 {
   color: var(--button_text);
 }
 /* фон майн */
-.backgr-port {
-  background: var(--button_text);
-}
+
 .footer-port {
   background-color: var(--hero_color);
   color: #ffffff;
@@ -240,16 +238,7 @@ h1 {
   line-height: 26px;
   letter-spacing: 0.03em;
 }
-.button-port {
-  background-color: var(--button_text);
-  color: var(--title_color);
-  border: 1 px solid black;
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-}
+
 ul {
   list-style: none;
 }
@@ -273,4 +262,24 @@ ul {
 .box {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+/* Классы для портфолио */
+.flex-box {
+  display: flex;
+  justify-content: center;
+  /* padding-top: 132px;
+  padding-bottom: 52px; */
+}
+.item-btn .button-port {
+  margin-left: 8px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 30px;
+  background-color: red;
+}
+.flex-container:nth-child(3n) {
+  margin-right: 0;
 }
