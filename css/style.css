@@ -29,6 +29,7 @@ body {
 .list {
   width: 1170px;
   display: flex;
+
   /* flex-wrap: wrap; */
 }
 
@@ -67,6 +68,7 @@ body {
 }
 /* ХЕДЕР */
 .nav {
+  width: 1170px;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -108,7 +110,8 @@ body {
   background-color: var(--hero_color);
   color: var(--button_text);
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 94px;
+  text-align: center;
 }
 h1 {
   font-weight: 900;
@@ -250,8 +253,8 @@ ul {
 
 .style-text {
   font-style: normal;
-  margin-left: auto;
-  display: block;
+  /* margin-left: auto; */
+  display: flex;
 }
 .paragraf {
   line-height: 1.88;
@@ -269,8 +272,8 @@ ul {
   letter-spacing: 0.06em;
 }
 .box {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-top: 0px;
+  margin-bottom: 94px;
 }
 
 /* Классы для портфолио */
