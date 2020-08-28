@@ -29,9 +29,9 @@ body {
 .list {
   /* width: 1170px; */
   display: flex;
-  margin-left: auto;
+  /* margin-left: auto; */
 
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 .site-nav .page + .page,
 .list .page + .page {
@@ -42,7 +42,7 @@ body {
   list-style: none;
 
   display: flex;
-  margin-left: ;
+  /* margin-left: ; */
 }
 
 .site-nav .link {
@@ -176,6 +176,7 @@ h1 {
   color: var(--title_color);
   margin-top: 0px;
   margin-bottom: 10px;
+  text-align: center;
 }
 .dev {
   font-weight: 400;
@@ -293,6 +294,11 @@ ul {
   flex-wrap: wrap;
   /* background-color: red; */
 }
+
+.list1 {
+  display: flex;
+}
+
 .item-box:nth-child(3n) {
   margin-right: 0;
 }
@@ -309,4 +315,7 @@ ul {
 }
 .info {
   margin-bottom: 9px;
+}
+.list .item-working {
+  width: 270px;
 }
