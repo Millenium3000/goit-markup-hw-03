@@ -260,7 +260,7 @@ ul {
   line-height: 1.88;
   color: var(--primary_gray);
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 .title {
   margin-top: 0px;
@@ -280,8 +280,8 @@ ul {
 .flex-box {
   display: flex;
   justify-content: center;
-  /* padding-top: 132px;
-  padding-bottom: 52px; */
+  margin-bottom: 50px;
+  margin-top: 94px;
 }
 .item-btn .button-port {
   margin-left: 8px;
