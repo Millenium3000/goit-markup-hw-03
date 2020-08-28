@@ -187,10 +187,16 @@ h1 {
 }
 .footer {
   background-color: var(--hero_color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .white {
   color: var(--button_text);
+  /* width: 1170px; */
+  margin-bottom: 20px;
+  display: block;
 }
+
 .link-var {
   color: var(--color_rgba);
   text-decoration: none;
@@ -298,4 +304,7 @@ ul {
 .item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
+}
+.info {
+  margin-bottom: 9px;
 }
