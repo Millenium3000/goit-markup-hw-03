@@ -9,7 +9,7 @@
   font-style: normal;
 }
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -17,7 +17,7 @@
 }
 body {
   font-family: Roboto, sans-serif;
-  background-color: var(--button_text);
+  /* background-color: var(--button_text); */
   font-style: normal;
 }
 /* убрал маркир список */
@@ -37,6 +37,9 @@ body {
 .list .page + .page {
   margin-left: 50px;
 }
+.page {
+  font-style: normal;
+}
 /* Убирает подчеркивание в ссылках */
 .site-nav {
   list-style: none;
@@ -47,10 +50,10 @@ body {
 
 .site-nav .link {
   display: block;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
-  color: var(--blue);
+  color: #212121;
 
   font-weight: 500;
   font-size: 14px;
@@ -72,6 +75,10 @@ body {
   align-items: center;
   margin-right: auto;
   justify-content: space-between;
+  margin-bottom: 25;
+}
+.page-header {
+  padding-bottom: 25px;
 }
 /* нов изменил */
 .container .main-nav {
@@ -88,6 +95,8 @@ body {
   font-size: 26px;
   line-height: 1.19px;
   letter-spacing: 0.03em;
+  padding-bottom: 24px;
+  padding-bottom: 25px;
 }
 .logo .logoblue {
   color: var(--blue);
@@ -102,31 +111,22 @@ body {
   color: var(--blue);
 }
 
-.button:active {
-  color: var(--title_color);
-}
 .hero {
-  background-color: var(--hero_color);
-  color: var(--button_text);
-  margin-top: 0px;
-  margin-bottom: 94px;
+  background-color: #2f303a;
+
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
 }
-h1 {
+
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-
-  margin-top: 0px;
-  margin-bottom: 30px;
-  /* or 136% */
-
-  text-align: center;
-  letter-spacing: 0.02em;
+  color: #ffffff;
   text-transform: uppercase;
 }
+
 /* оформи кнопку плять */
 .button_text {
   background-color: var(--blue);
@@ -136,7 +136,9 @@ h1 {
   line-height: 1.88;
   align-items: center;
   font-family: inherit;
-  border: solid 1px;
+  border: none;
+  padding: 10px 32px;
+  min-width: 200px;
 }
 .link-text {
   color: var(--title_color);
@@ -208,6 +210,7 @@ h1 {
 }
 .pink {
   background-color: var(--pink);
+  /* margin-bottom: 94px; */
 }
 .studio {
   color: var(--button_text);
@@ -252,9 +255,11 @@ h1 {
 ul {
   list-style: none;
 }
+address {
+  font-style: normal;
+}
 
 .style-text {
-  font-style: normal;
   /* margin-left: auto; */
   display: flex;
 }
@@ -274,8 +279,8 @@ ul {
   letter-spacing: 0.06em;
 }
 .box {
-  margin-top: 0px;
-  margin-bottom: 94px;
+  padding-top: 0px;
+  padding-bottom: 94px;
 }
 
 /* Классы для портфолио */
@@ -298,6 +303,8 @@ ul {
 }
 
 .list1 {
+  padding-bottom: 94px;
+  padding-top: 94px;
   display: flex;
 }
 
