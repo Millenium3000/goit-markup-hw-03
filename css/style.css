@@ -13,8 +13,8 @@
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 50px;
-  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -175,7 +175,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-  margin-top: 0;
+  margin-top: 0px;
   text-align: center;
 
   color: var(--title_color);
@@ -187,10 +187,11 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title_color);
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 30px;
+  margin-bottom: 10px;
   text-align: center;
 }
+
 .dev {
   font-weight: 400;
   font-size: 16px;
@@ -208,7 +209,6 @@ ul {
 }
 .white {
   color: var(--button_text);
-  /* width: 1170px; */
   margin-bottom: 20px;
   display: block;
 }
@@ -219,7 +219,8 @@ ul {
 }
 .pink {
   background-color: var(--pink);
-  /* margin-bottom: 94px; */
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .studio {
   color: var(--button_text);
@@ -289,6 +290,7 @@ address {
 }
 .box {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* Классы для портфолио */
@@ -335,6 +337,9 @@ address {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
+.item:nth-child(4n) {
+  margin-right: 0;
+}
 .info {
   margin-bottom: 9px;
 }
@@ -342,6 +347,6 @@ address {
   width: 270px;
 }
 
-.item-working:not(:last-child) {
-  margin-right: 30px;
-}
+/* .item-working:not(:last-child) {
+  margin-right: 30px; */
+/* } */
