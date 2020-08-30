@@ -69,17 +69,12 @@ body {
 }
 /* ХЕДЕР */
 .nav {
-  width: 1170px;
   text-decoration: none;
   display: flex;
   align-items: center;
-  margin-right: auto;
   justify-content: space-between;
-  margin-bottom: 25;
 }
-.page-header {
-  padding-bottom: 25px;
-}
+
 /* нов изменил */
 .container .main-nav {
   display: flex;
@@ -125,6 +120,7 @@ body {
   line-height: 60px;
   color: #ffffff;
   text-transform: uppercase;
+  margin: 0px 0px 30px;
 }
 
 /* оформи кнопку плять */
@@ -139,7 +135,9 @@ body {
   border: none;
   padding: 10px 32px;
   min-width: 200px;
+  display: inline-block;
 }
+/* H2 ВНИМАНИЕ К ДЕТАЛЯМ */
 .link-text {
   color: var(--title_color);
   font-weight: 700;
@@ -147,31 +145,34 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
   margin-top: 0px;
-  margin-bottom: 0px;
 }
+/* это <P> */
 .text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary_gray);
-  margin-top: 10 px;
-  margin-top: 0px;
+  margin-top: 0 px;
+  margin-bottom: 0px;
+
   /* text-align: center; */
   /* margin-bottom: 0px; */
 }
+/* наша команда -добавил паддинги топ и ниж*/
 .section {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 0px 0px 50px;
   text-align: center;
 
   color: var(--title_color);
 }
+/* убрал ошибку - ниж марджин */
 .text-name {
   font-weight: 500;
   font-size: 16px;
@@ -179,7 +180,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--title_color);
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   text-align: center;
 }
 .dev {
@@ -260,7 +261,7 @@ address {
 }
 
 .style-text {
-  /* margin-left: auto; */
+  margin-left: auto;
   display: flex;
 }
 .paragraf {
@@ -279,8 +280,7 @@ address {
   letter-spacing: 0.06em;
 }
 .box {
-  padding-top: 0px;
-  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 /* Классы для портфолио */
@@ -317,6 +317,11 @@ address {
 .item-box {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
+}
+/* портфолио ЛИ */
+.item-boxp {
+  padding-left: 10;
+  padding-bottom: 10;
 }
 .item {
   width: calc((100% - 90px) / 4);
