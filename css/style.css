@@ -38,9 +38,16 @@ ul {
 .list {
   /* width: 1170px; */
   display: flex;
-  /* margin-left: auto; */
+  flex-wrap: wrap;
+  /* text-align: right; */
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
 
   flex-wrap: wrap;
+}
+.list .item-working {
+  width: 270px;
 }
 .site-nav .page + .page,
 .list .page + .page {
@@ -294,6 +301,7 @@ address {
 .box {
   padding-top: 94px;
   padding-bottom: 94px;
+  text-align: center;
 }
 
 /* Классы для портфолио */
@@ -348,6 +356,8 @@ address {
 }
 .list .item-working {
   width: 270px;
+  display: block;
+  text-align: left;
 }
 
 /* .item-working:not(:last-child) {
