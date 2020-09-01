@@ -31,7 +31,7 @@ ul {
 
 .main-nav {
   display: flex;
-  width: 1570px;
+  width: 1200px;
   height: 80px;
 }
 
@@ -316,8 +316,8 @@ address {
 }
 
 .list1 {
-  padding-bottom: 94px;
-  padding-top: 94px;
+  padding-bottom: 0px;
+  padding-top: 0px;
   display: flex;
 }
 
