@@ -155,6 +155,9 @@ img {
   line-height: 1.37;
   text-transform: uppercase;
   color: var(--accent-white-color);
+  background-image: url(../images/new_hero.jpg);
+  width: 1600px;
+  height: 600px;
 }
 
 .header-hero,
