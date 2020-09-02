@@ -138,9 +138,18 @@ img {
 .wrap-hero {
   padding-top: 200px;
   padding-bottom: 200px;
-
+  background-image: url(../images/new_hero.jpg);
+  background-repeat: no-repeat;
   text-align: center;
   background-color: var(--secondary-bck-color);
+  width: 1600px;
+  height: 600px;
+  /* position: absolute; */
+
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
 }
 
 .banner {
@@ -155,9 +164,6 @@ img {
   line-height: 1.37;
   text-transform: uppercase;
   color: var(--accent-white-color);
-  background-image: url(../images/new_hero.jpg);
-  width: 1600px;
-  height: 600px;
 }
 
 .header-hero,
