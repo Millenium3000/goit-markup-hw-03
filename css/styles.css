@@ -148,6 +148,34 @@ img {
     url(../images/new_hero.jpg), #c4c4c4;
 }
 
+/* Оформляю иконки под героем */
+item.description::before {
+  display: block;
+  /* тут должен оформить контент */
+  content: ;
+  height: 120px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: tomato;
+}
+
+/* прописываю путь каждой иконки- антенна, космонавт, часы и экран . 1- антенна*/
+.icon-antenna ::before {
+  background-image: url(../images/svg/antenna\ 1.svg);
+}
+/* вторая  иконка - ссылка- часы */
+.icon-clock::before {
+  background-image: url(../images/svg/clock\ 1.svg);
+}
+/* третья иконка-монитор */
+.icon-diagram::before {
+  background-image: url(../images/svg/diagram\ 1.svg);
+}
+/* четвертая иконка- космонавт */
+.icon-astronaut::before {
+  background-image: url(../images/svg/astronaut\ 1.svg);
+}
 .banner {
   max-width: 696px;
 }
