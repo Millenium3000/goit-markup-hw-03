@@ -149,7 +149,7 @@ img {
 }
 
 /* Оформляю иконки под героем */
-item.description::before {
+.item.description::before {
   display: block;
   /* тут должен оформить контент */
   content: ;
@@ -162,19 +162,19 @@ item.description::before {
 
 /* прописываю путь каждой иконки- антенна, космонавт, часы и экран . 1- антенна*/
 .icon-antenna ::before {
-  background-image: url(../images/svg/antenna\ 1.svg);
+  background-image: url(../images/svg/antenna.svg);
 }
 /* вторая  иконка - ссылка- часы */
 .icon-clock::before {
-  background-image: url(../images/svg/clock\ 1.svg);
+  background-image: url(../images/svg/clock.svg);
 }
 /* третья иконка-монитор */
 .icon-diagram::before {
-  background-image: url(../images/svg/diagram\ 1.svg);
+  background-image: url(../images/svg/diagram.svg);
 }
 /* четвертая иконка- космонавт */
 .icon-astronaut::before {
-  background-image: url(../images/svg/astronaut\ 1.svg);
+  background-image: url(../images/svg/astronaut.svg);
 }
 .banner {
   max-width: 696px;
