@@ -100,7 +100,26 @@ img {
   line-height: 1;
   letter-spacing: 0.02em;
 }
-
+/* иконки */
+.mobile .link {
+  width: 16px;
+}
+/* иконки */
+.icon-mobile {
+  /* display: flex; */
+  width: 16px;
+}
+/* тестовая херня еслли шо удали */
+.icon-mobile .icon-email .link ::before {
+  /* display: block; */
+  background-position: center
+ 
+}
+/* иконки */
+.icon-email {
+  display: flex;
+  width: 16px;
+}
 .flex-header,
 .flex-nav,
 .site-nav,
@@ -148,7 +167,7 @@ img {
     url(../images/new_hero.jpg), #c4c4c4;
 }
 
-/* Оформляю иконки под героем */
+/* Оформляю иконки под героем. Тут же оформление SVG для 4 Li */
 .item.description::before {
   display: block;
   /* тут должен оформить контент */
@@ -157,8 +176,11 @@ img {
   background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
+  align-items: center;
   background-color: tomato;
 }
+
+/* Оформляю иконки внизу под фотками команды */
 
 /* прописываю путь каждой иконки- антенна, космонавт, часы и экран . 1- антенна*/
 /* .icon-antenna::before {
@@ -169,7 +191,7 @@ img {
   background-image: url(../images/svg/clock.svg);
 }
 /* третья иконка-монитор */
-.icon-diagram::before {
+/* .icon-diagram::before { */
   /* background-image: url(../images/svg/diagram.svg); */
 }
 /* четвертая иконка- космонавт */
@@ -232,6 +254,7 @@ img {
   height: 120px;
   margin-bottom: 30px;
 }
+/* Оформляю SVG планирование */
 .icon-size {
   width: 65px;
   height: 70px;
@@ -291,6 +314,7 @@ img {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
 }
+/* Тени СВГ, границы */
 .icon-team {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
