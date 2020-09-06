@@ -70,6 +70,9 @@ img {
 .link {
   text-decoration: none;
 }
+.a.link {
+  display: flex;
+}
 
 .mg-zero {
   margin-top: 0;
@@ -101,6 +104,27 @@ img {
   letter-spacing: 0.02em;
 }
 
+/* иконки */
+.mobile .link {
+  width: 16px;
+}
+/* иконки */
+.icon-mobile {
+  /* display: flex; */
+  width: 10px;
+  height: 16px;
+}
+/* тестовая херня если шо удали */
+.icon-mobile .icon-email ::before {
+  background-position: center;
+  height: 80px;
+}
+/* иконки */
+.icon-email {
+  display: flex;
+  width: 16px;
+  height: 16px;
+}
 .flex-header,
 .flex-nav,
 .site-nav,
@@ -133,17 +157,55 @@ img {
 .contacts .link:focus {
   color: var(--accent-blue-color);
 }
-
+.contacts .link {
+  display: flex;
+}
 /* Герой */
 .wrap-hero {
   padding-top: 200px;
   padding-bottom: 200px;
-
+  background-image: url(../images/new_hero.jpg);
   text-align: center;
-  background-color: var(--secondary-bck-color);
+  background: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/new_hero.jpg), #c4c4c4;
 }
 
-.banner {
+/* Оформляю иконки под героем. Тут же оформление SVG для 4 Li */
+.item.description::before {
+  display: block;
+  /* тут должен оформить контент */
+  content: ;
+  height: 120px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background-color: tomato;
+}
+
+/* Оформляю иконки внизу под фотками команды */
+
+/* прописываю путь каждой иконки- антенна, космонавт, часы и экран . 1- антенна*/
+/* .icon-antenna::before {
+  background-image: url(../images/svg/antenna.svg);
+}
+/* вторая  иконка - ссылка- часы */
+.icon-clock::before {
+  background-image: url(../images/svg/clock.svg);
+}
+/* третья иконка-монитор */
+/* .icon-diagram::before { */
+/* background-image: url(../images/svg/diagram.svg); */
+
+/* четвертая иконка- космонавт */
+.icon-astronaut::before {
+  background-image: url(../images/svg/astronaut.svg);
+}
+*/ .banner {
   max-width: 696px;
 }
 
@@ -190,6 +252,20 @@ img {
 }
 
 /* Наши преимущества */
+.icon .icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 30px;
+}
+/* Оформляю SVG планирование */
+.icon-size {
+  width: 65px;
+  height: 70px;
+}
 
 .list-why-we {
   display: flex;
@@ -244,6 +320,12 @@ img {
 .our-team .item {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
+}
+/* Тени СВГ, границы */
+.icon-team {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team .item:last-child {
@@ -349,7 +431,43 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.icon-svg-list {
+  display: flex;
+  height: 40;
+}
+.icon-svg {
+  display: inline-flex;
+}
+/* контейнер с иконками в футере */
+.flexbox {
+  display: flex;
+  /* цвет текста */
+  color: #ffffff;
+}
+.footer-icon-set {
+  width: 44px;
+  height: 44px;
+  fill: Solid rgba(255, 255, 255, 0.1);
+}
 
+.footer-icon :hover {
+  color: #2196f3;
+}
+
+.title-icon {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.footer-link-svg {
+  width: 20px;
+  height: 20px;
+}
 .grid-contacts {
   width: 231px;
 }
