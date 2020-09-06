@@ -70,6 +70,9 @@ img {
 .link {
   text-decoration: none;
 }
+.a.link {
+  display: flex;
+}
 
 .mg-zero {
   margin-top: 0;
@@ -100,6 +103,7 @@ img {
   line-height: 1;
   letter-spacing: 0.02em;
 }
+
 /* иконки */
 .mobile .link {
   width: 16px;
@@ -107,18 +111,19 @@ img {
 /* иконки */
 .icon-mobile {
   /* display: flex; */
-  width: 16px;
+  width: 10px;
+  height: 16px;
 }
-/* тестовая херня еслли шо удали */
-.icon-mobile .icon-email .link ::before {
-  /* display: block; */
-  background-position: center
- 
+/* тестовая херня если шо удали */
+.icon-mobile .icon-email ::before {
+  background-position: center;
+  height: 80px;
 }
 /* иконки */
 .icon-email {
   display: flex;
   width: 16px;
+  height: 16px;
 }
 .flex-header,
 .flex-nav,
@@ -152,7 +157,9 @@ img {
 .contacts .link:focus {
   color: var(--accent-blue-color);
 }
-
+.contacts .link {
+  display: flex;
+}
 /* Герой */
 .wrap-hero {
   padding-top: 200px;
@@ -192,8 +199,8 @@ img {
 }
 /* третья иконка-монитор */
 /* .icon-diagram::before { */
-  /* background-image: url(../images/svg/diagram.svg); */
-}
+/* background-image: url(../images/svg/diagram.svg); */
+
 /* четвертая иконка- космонавт */
 .icon-astronaut::before {
   background-image: url(../images/svg/astronaut.svg);
@@ -424,7 +431,43 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.icon-svg-list {
+  display: flex;
+  height: 40;
+}
+.icon-svg {
+  display: inline-flex;
+}
+/* контейнер с иконками в футере */
+.flexbox {
+  display: flex;
+  /* цвет текста */
+  color: #ffffff;
+}
+.footer-icon-set {
+  width: 44px;
+  height: 44px;
+  fill: Solid rgba(255, 255, 255, 0.1);
+}
 
+.footer-icon :hover {
+  color: #2196f3;
+}
+
+.title-icon {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.footer-link-svg {
+  width: 20px;
+  height: 20px;
+}
 .grid-contacts {
   width: 231px;
 }
