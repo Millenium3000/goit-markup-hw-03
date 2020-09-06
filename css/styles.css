@@ -178,13 +178,13 @@ img {
 .item.description::before {
   display: block;
   /* тут должен оформить контент */
-  content: ;
+  content: "";
   height: 120px;
   background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
-  background-color: tomato;
+  background-color: white;
 }
 
 /* Оформляю иконки внизу под фотками команды */
@@ -208,7 +208,15 @@ img {
 */ .banner {
   max-width: 696px;
 }
-
+/* пропиши для логотипов клиентов */
+.clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
 .header-hero {
   margin-top: 0;
   margin-bottom: 30px;
@@ -248,6 +256,12 @@ img {
 }
 
 .wrap-our-team {
+  font-size: 36px;
+  line-height: 1.17;
+
+  letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 50px;
   background-color: #f5f4fa;
 }
 
@@ -305,16 +319,19 @@ img {
 
 /* Наша команда */
 .subtitle-our-team {
-  margin-top: 0;
-  margin-bottom: 10px;
   font-weight: 500;
-  line-height: 1.2;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 30px;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
   color: var(--header-text-color);
 }
 
 .our-team {
   display: flex;
-  text-align: center;
+  justify-content: center;
 }
 
 .our-team .item {
@@ -323,6 +340,10 @@ img {
 }
 /* Тени СВГ, границы */
 .icon-team {
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: var(--accent-white-color);
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -333,13 +354,18 @@ img {
 }
 
 .text-our-team {
+  margin-top: 0px;
   margin-top: 0;
-  margin-bottom: 0;
-  line-height: 1.2;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
 .indent-pic {
+  width: 270px;
   margin-bottom: 30px;
 }
 
@@ -381,6 +407,38 @@ img {
 .btn:focus {
   color: var(--accent-white-color);
   background-color: var(--accent-blue-color);
+}
+
+.section-comand {
+  background-color: var(--bck-section-white);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.icon-client:not(:last-child) {
+  margin-right: 30px;
+}
+
+.icon-hover-link {
+  background-color: var(--accent-white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--primary-text-color);
+  border-radius: 4px;
+}
+.icon-hover-link:hover,
+.icon-hover-link:focus {
+  border: 1px solid var(--accent-blue-color);
+}
+
+.clients-icon {
+  fill: var(--primary-text-color);
+}
+
+.icon-hover-link:hover .clients-icon {
+  fill: var(--accent-blue-color);
 }
 
 /* Список портфолио */
@@ -436,7 +494,12 @@ img {
   height: 40;
 }
 .icon-svg {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+.icon-svg:not(:last-child) {
+  margin-right: 10px;
 }
 /* контейнер с иконками в футере */
 .flexbox {
@@ -449,11 +512,19 @@ img {
   height: 44px;
   fill: Solid rgba(255, 255, 255, 0.1);
 }
-
 .footer-icon :hover {
   color: #2196f3;
 }
-
+/* Это разметка соцсетей команды перед футером */
+.list-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
 .title-icon {
   font-family: Roboto;
   font-style: normal;
@@ -463,6 +534,30 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
+}
+
+.link-svg {
+  fill: var(--primary-text-color);
+  width: 20px;
+  height: 20px;
+}
+.icon-set {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-set:hover,
+.icon-set:focus {
+  background-color: var(--accent-blue-color);
+}
+
+.icon-set:hover .link-svg,
+.icon-set:focus .link-svg {
+  fill: var(--accent-white-color);
 }
 .footer-link-svg {
   width: 20px;
