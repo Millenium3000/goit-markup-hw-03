@@ -14,9 +14,8 @@
   --bck-section-white: #f5f4fa;
   /* Стили шрифтов */
   --letter: 0.03em;
-  /* --hover-portfolio: rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+  --hover-portfolio: rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-} */
 }
 
 body {
@@ -506,9 +505,6 @@ img {
 
 .desc-portfolio {
   margin-left: 24px;
-  width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .title-portfolio {
