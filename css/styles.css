@@ -67,6 +67,39 @@ img {
   margin: 0;
 }
 
+.link-addres {
+  display: flex;
+  align-items: center;
+}
+.icon-email {
+  width: 16px;
+  height: 12px;
+
+  margin-right: 10px;
+
+  fill: currentColor;
+}
+.icon-mobile {
+  width: 10px;
+  height: 16px;
+
+  margin-right: 10px;
+
+  fill: currentColor;
+}
+
+.link-addres:hover,
+.link-addres:focus {
+  color: var(--accent-blue-color);
+}
+
+.link-addres:hover .icon-email {
+  fill: var(--accent-blue-color);
+}
+.link-addres:hover .icon-mobile {
+  fill: var(--accent-blue-color);
+}
+
 .link {
   text-decoration: none;
 }
