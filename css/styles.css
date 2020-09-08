@@ -146,20 +146,26 @@ img {
 }
 /* иконки */
 .icon-mobile {
-  /* display: flex; */
+  vertical-align: middle;
+  display: flex;
   width: 10px;
   height: 16px;
+  fill: var(--primary-text-color);
+  text-align: center;
 }
 /* тестовая херня если шо удали */
-.icon-mobile .icon-email ::before {
+/* .icon-mobile .icon-email ::before {
   background-position: center;
-  height: 80px;
+  height: 80px; */
 }
 /* иконки */
 .icon-email {
+  vertical-align: middle;
   display: flex;
   width: 16px;
   height: 16px;
+  text-align: center;
+  fill: var(--primary-text-color);
 }
 .flex-header,
 .flex-nav,
@@ -481,11 +487,15 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
+.icon-hover-link:hover .clients-icon,
+.icon-hover-link:focus .clients-icon {
+  fill: var(--accent-blue-color);
+}
+
 .icon-hover-link:hover,
 .icon-hover-link:focus {
   border: 1px solid var(--accent-blue-color);
 }
-
 .clients-icon {
   width: 79px;
   height: 42px;
@@ -493,11 +503,6 @@ img {
 
 /* .client .flexbox {
   /* убираю левый паддирнг */
-
-.icon-hover-link:hover .clients-icon {
-  fill: var(--accent-blue-color);
-  border: 1px solid #afb1b8;
-}
 
 /* Список портфолио */
 .portfolio {
