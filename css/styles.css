@@ -213,6 +213,7 @@ img {
   margin-right: auto;
   background-position: center;
   max-width: 1600px;
+  height: 600px;
 }
 
 /* Оформляю иконки под героем. Тут же оформление SVG для 4 Li */
@@ -258,6 +259,7 @@ img {
   border-radius: 4px;
 }
 .header-hero {
+  width: 696px;
   margin-top: 0;
   margin-bottom: 30px;
   font-size: 44px;
