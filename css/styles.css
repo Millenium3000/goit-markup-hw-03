@@ -548,8 +548,8 @@ img {
 /* контейнер с иконками в футере */
 .flexbox {
   display: flex;
-  /* цвет текста */
   color: #ffffff;
+  padding-left: 0;
 }
 .footer-icon-set {
   width: 44px;
