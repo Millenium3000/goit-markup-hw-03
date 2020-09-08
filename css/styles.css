@@ -493,11 +493,12 @@ img {
   height: 42px;
 }
 
-.client .flexbox {
+/* .client .flexbox {
   /* убираю левый паддирнг */
-}
+
 .icon-hover-link:hover .clients-icon {
   fill: var(--accent-blue-color);
+  border: 1px solid #afb1b8;
 }
 
 /* Список портфолио */
