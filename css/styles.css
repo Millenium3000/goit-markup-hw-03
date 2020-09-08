@@ -487,7 +487,6 @@ img {
 
 .client .flexbox {
   /* убираю левый паддирнг */
-  padding-left: 0;
 }
 .icon-hover-link:hover .clients-icon {
   fill: var(--accent-blue-color);
