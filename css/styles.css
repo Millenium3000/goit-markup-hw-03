@@ -258,6 +258,10 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
+.clients-icon {
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
+}
 .header-hero {
   width: 696px;
   margin-top: 0;
@@ -599,7 +603,7 @@ img {
 }
 
 .link-svg {
-  fill: var(--primary-text-color);
+  color: #afb1b8;
   width: 20px;
   height: 20px;
 }
