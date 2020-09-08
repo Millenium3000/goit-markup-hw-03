@@ -259,8 +259,7 @@ img {
   border-radius: 4px;
 }
 .clients-icon {
-  color: #afb1b8;
-  border: 1px solid #afb1b8;
+  fill: #afb1b8;
 }
 .header-hero {
   width: 696px;
@@ -479,7 +478,7 @@ img {
   align-items: center;
   width: 170px;
   height: 90px;
-  border: 1px solid var(--primary-text-color);
+  border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 .icon-hover-link:hover,
