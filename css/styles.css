@@ -477,7 +477,7 @@ img {
   fill: var(--primary-text-color);
 }
 
-.client-flexbox {
+.client .flexbox {
   /* убираю левый паддирнг */
   padding-left: 0;
 }
