@@ -214,7 +214,7 @@ img {
   display: block;
   /* тут должен оформить контент */
   content: "";
-  height: 120px;
+
   background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
