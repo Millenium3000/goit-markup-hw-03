@@ -487,7 +487,6 @@ img {
 }
 
 .clients-icon {
-  fill: var(--primary-text-color);
   width: 79px;
   height: 42px;
 }
