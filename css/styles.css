@@ -267,6 +267,8 @@ img {
   line-height: 1.37;
   text-transform: uppercase;
   color: var(--accent-white-color);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-hero,
