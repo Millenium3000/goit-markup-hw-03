@@ -123,6 +123,7 @@ img {
   font-weight: 700;
   line-height: 1.2;
   color: var(--accent-black-color);
+  text-decoration: none;
 }
 
 .accent-color {
