@@ -208,6 +208,11 @@ img {
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/new_hero.jpg), #c4c4c4;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  max-width: 1600px;
 }
 
 /* Оформляю иконки под героем. Тут же оформление SVG для 4 Li */
